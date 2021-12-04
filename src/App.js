@@ -40,6 +40,22 @@ function App() {
               </div>
             </div>
           </div>
+          <br />
+          <p>
+            <a
+              className="github"
+              href="https://github.com/elimdd/she-codes-react-hosting"
+            >
+              Open Source code
+            </a>
+            <span> by </span>
+            <a
+              className="linkedin"
+              href="https://www.linkedin.com/in/elianamdeus/"
+            >
+              Eliana Marques
+            </a>
+          </p>
         </div>
       </header>
     </div>

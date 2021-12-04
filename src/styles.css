@@ -28,3 +28,18 @@
 .temperature {
   font-size: 45px;
 }
+.github {
+  text-decoration: none;
+  color: purple;
+}
+.github:hover {
+  text-decoration: underline;
+  color: blueviolet;
+}
+.linkedin {
+  text-decoration: none;
+}
+.linkedin:hover {
+  text-decoration: underline;
+  color: blueviolet;
+}
