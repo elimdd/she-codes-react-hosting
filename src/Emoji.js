@@ -1,7 +1,8 @@
 import React from 'react'
+import Icons from './Icons'
 
 import './styles.css'
 
 export default function Emoji() {
-  return <div className="emoji">🌞</div>
+  return <Icons icon="sun" />
 }
