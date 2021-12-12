@@ -45,7 +45,7 @@ export default function Form() {
         placeholder="Type city here..."
         onChange={citySearch}
       />
-      <input type="submit" value="Search" />
+      <input className="btn btn-light btn-lg" type="submit" value="Search" />
     </form>
   )
 

@@ -41,7 +41,8 @@ function App() {
             </div>
           </div>
           <br />
-          <p>
+          <button className="btn btn-primary">Start</button>
+          <footer>
             <a
               className="github"
               href="https://github.com/elimdd/she-codes-react-hosting"
@@ -55,7 +56,7 @@ function App() {
             >
               Eliana Marques
             </a>
-          </p>
+          </footer>
         </div>
       </header>
     </div>
