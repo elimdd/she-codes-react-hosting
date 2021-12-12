@@ -19,6 +19,8 @@ function App() {
           <div class="container">
             <Form />
             <br />
+            <hr />
+            <hr />
             <City />
             <div class="row">
               <div class="col">

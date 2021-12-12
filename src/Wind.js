@@ -15,5 +15,5 @@ export default function Forecast() {
     setWindy(Math.round(response.data.wind.speed))
   }
 
-  return <div className="description">wind: {windy} km/h</div>
+  return <div className="text-capitalize">wind: {windy} km/h</div>
 }

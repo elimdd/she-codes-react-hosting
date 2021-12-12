@@ -15,5 +15,9 @@ export default function Forecast() {
     setDescription(response.data.weather[0].description)
   }
 
-  return <div className="description">{description}</div>
+  return (
+    <div>
+      <div className="text-capitalize">{description}</div>
+    </div>
+  )
 }

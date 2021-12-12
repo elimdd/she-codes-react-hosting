@@ -10,10 +10,10 @@ export default function Humidity() {
   axios.get(`${apiUrl}&appid=${apiKey}`).then(displayHumidity)
 
   function displayHumidity(response) {
-    console.log(response.data.main.humidity)
+    console.log(Math.round(response.data.wind.speed))
     //set
     setHumidity(response.data.main.humidity)
   }
 
-  return <div className="description">humidity: {humidity} %</div>
+  return <div className="text-capitalize">humidity: {humidity} %</div>
 }
