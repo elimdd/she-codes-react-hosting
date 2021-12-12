@@ -12,7 +12,7 @@ import Wind from './Wind'
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <header className="App-header">
         <div className="App">
           <h1>Weather APP</h1>
@@ -41,7 +41,6 @@ function App() {
             </div>
           </div>
           <br />
-          <button className="btn btn-primary">Start</button>
           <footer>
             <a
               className="github"

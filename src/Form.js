@@ -40,12 +40,22 @@ export default function Form() {
 
   let form = (
     <form className="form" onSubmit={formSubmit}>
-      <input
-        type="text"
-        placeholder="Type city here..."
-        onChange={citySearch}
-      />
-      <input className="btn btn-light btn-lg" type="submit" value="Search" />
+      <div className="row">
+        <div className="col-8">
+          <input
+            type="text"
+            placeholder="Type city here..."
+            onChange={citySearch}
+          />
+        </div>
+        <div className="col-4">
+          <input
+            className="btn btn-light btn-lg btn-outline-secondary"
+            type="submit"
+            value="Search"
+          />
+        </div>
+      </div>
     </form>
   )
 
