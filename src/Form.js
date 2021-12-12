@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios'
+import './styles.css'
 
 export default function Form() {
   const [city, setCity] = useState(null)
@@ -43,6 +44,7 @@ export default function Form() {
       <div className="row">
         <div className="col-8">
           <input
+            className="formCity"
             type="text"
             placeholder="Type city here..."
             onChange={citySearch}

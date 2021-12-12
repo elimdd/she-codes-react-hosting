@@ -40,13 +40,12 @@ function App() {
               </div>
             </div>
           </div>
-          <br />
           <footer>
             <a
               className="github"
               href="https://github.com/elimdd/she-codes-react-hosting"
             >
-              Open Source code
+              Open Source Code
             </a>
             <span> by </span>
             <a
