@@ -47,6 +47,10 @@
   border-radius: 8px;
   font-size: 28px;
 }
+.description {
+  font-variant-caps: petite-caps;
+  color: blueviolet;
+}
 footer {
   font-size: 20px;
   padding: 10px;
