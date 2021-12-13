@@ -19,9 +19,6 @@ function App() {
           <h1>Weather APP</h1>
           <div class="container">
             <Weather defaultCity="London" />
-            <hr />
-            <hr />
-            <Form />
             <br />
             <hr />
             <hr />
@@ -45,6 +42,10 @@ function App() {
                 <Temperature />
               </div>
             </div>
+            <hr />
+            <hr />
+            <br />
+            <Form />
           </div>
           <footer>
             <a
