@@ -1,6 +1,7 @@
 import './App.css'
 import './styles.css'
 
+import Weather from './Weather'
 import Form from './Form'
 import City from './City'
 import Date from './Date'
@@ -17,6 +18,9 @@ function App() {
         <div className="App">
           <h1>Weather APP</h1>
           <div class="container">
+            <Weather defaultCity="London" />
+            <hr />
+            <hr />
             <Form />
             <br />
             <hr />
@@ -24,7 +28,7 @@ function App() {
             <City />
             <div class="row">
               <div class="col">
-                <Date />
+                <Date cityName="New York" />
                 <Forecast />
               </div>
               <div class="col">
