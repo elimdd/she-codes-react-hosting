@@ -16,12 +16,15 @@ export default function InfoDailyWeather(props) {
     return (
       <div className="daily-forecast">
         <div className="row">
-          <Daily data={forecastData[0]} />
-          <Daily data={forecastData[1]} />
-          <Daily data={forecastData[2]} />
-          <Daily data={forecastData[3]} />
-          <Daily data={forecastData[4]} />
-          <Daily data={forecastData[5]} />
+          {forecastData.map(function (dailyDisplay, index) {
+            if (index < 6) {
+              return (
+                <div className="col" key={index}>
+                  <Daily data={dailyDisplay} />
+                </div>
+              )
+            }
+          })}
         </div>
       </div>
     )
