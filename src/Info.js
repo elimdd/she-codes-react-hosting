@@ -2,6 +2,7 @@ import React from 'react'
 import FormatDate from './FormatDate'
 import './Weather.css'
 import WeatherCelsius from './WeatherCelsius'
+import WeatherFahrenheit from './WeatherFahrenheit'
 
 export default function info(props) {
   return (
@@ -26,7 +27,15 @@ export default function info(props) {
               <li>Wind:{Math.round(props.data.wind)}km/h</li>
             </ul>
           </div>
-          <WeatherCelsius celsius={props.data.temperature} />
+          <container>
+            <span>
+              <WeatherCelsius celsius={props.data.temperature} />
+            </span>
+            <span> | </span>
+            <span>
+              <WeatherFahrenheit farenheint={props.data.temperature} />
+            </span>
+          </container>
         </div>
       </div>
       <div className="next-days">Next days...</div>

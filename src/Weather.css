@@ -33,6 +33,21 @@
   padding: 10px;
 }
 
+.weather .climate-farenheint {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  color: lightskyblue;
+  padding: 10px;
+}
+
+.weather .unit-farenheint {
+  font-size: 28px;
+  font-style: italic;
+  font-weight: lighter;
+  color: lightskyblue;
+}
+
 .weather img {
   padding-top: 20px;
   padding-bottom: 20px;
