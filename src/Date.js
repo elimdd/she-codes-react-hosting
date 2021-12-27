@@ -9,9 +9,11 @@ export default function FormatDate(props) {
   axios.get(`${apiUrl}&appid=${apiKey}`).then(displayDate)
 
   function displayDate(response) {
-    console.log(response.data.dt * 1000)
+    let date = new Date(response.data.dt * 1000)
+    let day = date.getDay()
+    let days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
     //
-    setDate(response.data.dt * 1000)
+    setDate(days[day])
   }
 
   return <div className="text-capitalize">{date}</div>
