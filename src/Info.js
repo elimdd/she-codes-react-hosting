@@ -29,6 +29,7 @@ export default function info(props) {
           <WeatherCelsius celsius={props.data.temperature} />
         </div>
       </div>
+      <div className="next-days">Next days...</div>
     </div>
   )
 }

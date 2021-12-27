@@ -42,3 +42,8 @@
   background-color: white;
   border: none;
 }
+.next-days {
+  font-style: italic;
+  color: white;
+  background-color: blue;
+}

@@ -58,3 +58,14 @@ footer {
 hr {
   color: black;
 }
+.max-temp {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+.min-temp {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  color: gray;
+}

@@ -11,7 +11,15 @@ export default function FormatDate(props) {
   function displayDate(response) {
     let date = new Date(response.data.dt * 1000)
     let day = date.getDay()
-    let days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+    let days = [
+      'Sunday',
+      'Monday',
+      'Tuesday',
+      'Wednesday',
+      'Thursday',
+      'Friday',
+      'Saturday'
+    ]
     //
     setDate(days[day])
   }

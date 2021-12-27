@@ -1,5 +1,6 @@
 import React from 'react'
 import Icons from './Icons'
+import './styles.css'
 
 export default function Daily(props) {
   function dayTime() {
@@ -12,12 +13,15 @@ export default function Daily(props) {
 
   return (
     <div className="col">
-      {dayTime()}
-      <br />
-      <Icons icon={props.data.icon} />
-      <br />
-      <span>{Math.round(props.data.temp.max)} ºC</span> |{' '}
-      <span>{Math.round(props.data.temp.min)} ºC</span>
+      <container>
+        {dayTime()}
+        <br />
+        <Icons icon={props.data.icon} />
+      </container>
+      <container>
+        <div className="max-temp">{Math.round(props.data.temp.max)} ºC</div>
+        <div className="min-temp">{Math.round(props.data.temp.min)} ºC</div>
+      </container>
     </div>
   )
 }
